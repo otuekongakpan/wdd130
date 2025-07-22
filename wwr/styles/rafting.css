@@ -79,7 +79,7 @@ article {
     background-color: var(--secondary-color);
     padding: 16px;
     margin: auto;
-    border-radius: 4px;
+    border-radius: 10px;
     opacity: 0.85;
     color: #fff;
     border: 2px solid var(--primary-color);
@@ -89,6 +89,8 @@ article {
 article img {
     width: 40%;
     float: right;
+    border: 1px solid gray;
+    border-radius: 10px;
 }
 
 footer {
@@ -100,9 +102,10 @@ footer {
 
 section img {
     width: 40%;
-    height: auto;
-    border: 1px solid black;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
+    height: 200px;
+    border: 1px solid gray;
+
+    box-shadow: 0 0 8px gray;
     margin: 1rem;
+    border-radius: 8px;
 }
