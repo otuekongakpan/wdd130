@@ -76,6 +76,7 @@ nav a {
 
 .hero  {
     position: relative;
+    
 }
 .hero img {
     display: block;
@@ -88,7 +89,7 @@ h1 {
     top: 20px;
     width: 100%;
     text-align: center; 
-    opacity: 1;
+    opacity: 0.8;
     background-color: var(--accent1-color);
     color: #fff;
 }
@@ -176,7 +177,6 @@ section img {
   color: var(--primary-color);
 }
 
-/* Horizontal row for images */
 .adventure-row {
   display: flex;
   gap: 1rem;
