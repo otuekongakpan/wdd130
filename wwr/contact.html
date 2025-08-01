@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <meta name="description" content="Contact page for Whitewater Rafting by Otuekong Akpan for WDD 130">
+    <meta name="author" content="Otuekong Akpan">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="Whitewater Rafting Logo" width="150">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-us">
+            <h1>Contact Us Today!</h1>
+            <p>We would love to hear your feedback and suggestions! We are always happy to help.</p>
+        </section>
+
+        <section class="employees">
+            <h3>Meet Our Team</h3>
+            <div class="employee-row">
+                <div class="employee">
+                    <img src="images/employee1.jpg" alt="Otuekong Akpan - Founder and Lead Guide">
+                    <h4>Otuekong Akpan</h4>
+                    <p>Founder and Lead Guide</p>
+                </div>
+                <div class="employee">
+                    <img src="images/employee2.jpg" alt="Jane Doe - Safety Officer">
+                    <h4>Jane Doe</h4>
+                    <p>Safety Officer</p>
+                </div>
+                <div class="employee">
+                    <img src="images/employee3.jpg" alt="John Smith - Marketing Manager">
+                    <h4>John Smith</h4>
+                    <p>Marketing Manager</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h3>Send Us a Message</h3>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <fieldset>
+                    <legend>Purpose of Message:</legend>
+                    <input type="radio" id="general-inquiry" name="purpose" value="general-inquiry" required>
+                    <label for="general-inquiry">General Inquiry</label>
+
+                    <input type="radio" id="reservation-question" name="purpose" value="reservation-question">
+                    <label for="reservation-question">Reservation Question</label>
+
+                    <input type="radio" id="website-suggestion" name="purpose" value="website-suggestion">
+                    <label for="website-suggestion">Website Suggestion</label>
+                </fieldset>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section class="reach-us">
+            <h3>Ways to Reach Us</h3>
+            <p><img src="images/email.png" alt="Email Icon" width="20"> happy@holidays.com</p>
+            <p><img src="images/phone.png" alt="Phone Icon" width="20"> +1 (123) 456-7890</p>
+            <p><img src="images/home.png" alt="Home Icon" width="20"> 123 Adventure Lane, Rafting City, USA</p>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4912.151453875489!2d-111.64463177782774!3d39.54662592073424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874c6bc78f13f9cd%3A0xbddf4aa56cd7463f!2sUtah%2C%20USA!5e0!3m2!1sen!2sng!4v1754084288567!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+
+    <footer>
+        <p>©️2025 | Whitewater Rafting | Otuekong Akpan</p>
+        <nav class="socialmedia">
+            <a href="https://www.facebook.com">
+                <img src="images/facebook.png" alt="Facebook Icon" width="20">
+            </a>
+            <a href="https://www.instagram.com">
+                <img src="images/instagram.png" alt="Instagram Icon" width="20">
+            </a>
+            <a href="https://www.twitter.com">
+                <img src="images/twitter.png" alt="Twitter Icon" width="20">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>
