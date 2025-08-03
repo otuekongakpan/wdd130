@@ -16,7 +16,6 @@ header {
     padding: 16px;
 }
 
-
 * {
     margin: 0;
     padding: 0;
@@ -250,7 +249,7 @@ section img {
 }
 
 iframe {
-    width: 30%;
+    width: 50%;
     height: 200px;
     border: none;
     border-radius: 8px;
@@ -365,5 +364,24 @@ iframe {
   transform: translateY(-2px);
 }
 
+.contact-form .checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; 
+}
 
+.contact-form .checkbox-container label {
+    font-weight: normal; 
+    margin: 0;
+    margin-left: 8px;
+    cursor: pointer;
+    color: #658276;
+}
 
+.contact-info-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+}
