@@ -255,7 +255,7 @@ section img {
   flex-direction: column;
   margin: 40px auto;
   padding: 30px;
-  background-color: #d5dfe5;
+  background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   font-family: var(--body-font)
@@ -380,7 +380,7 @@ section img {
 
 .reach-us {
     padding: 30px 16px; 
-    background-color: var(--accent2-color);
+    background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
