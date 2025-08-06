@@ -24,7 +24,7 @@ header {
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    color: var(--primary-color);
 }
 
 header, main, footer {
@@ -211,7 +211,7 @@ section img {
 }
 .contact-us p {
     text-align: center;
-    color: var(--accent1-color);
+    color: var(--primary-color);
     font-size: 1.2rem;
     margin: 1rem 0;
 }
@@ -255,7 +255,7 @@ section img {
   flex-direction: column;
   margin: 40px auto;
   padding: 30px;
-  background-color: #d5dfe5;
+  background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   font-family: var(--body-font)
@@ -340,7 +340,7 @@ section img {
 .contact-form button {
   padding: 8px 20px;
   background-color: #567568;
-  color: #d5dfe5;
+  color: #fff;
   border: none;
   border-radius: 6px;
   font-size: 0.8rem;
@@ -380,7 +380,7 @@ section img {
 
 .reach-us {
     padding: 30px 16px; 
-    background-color: var(--accent2-color);
+    background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -406,54 +406,3 @@ iframe {
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
-
-.hero2 {
-    position: relative;
-    background-image: linear-gradient(to bottom #000);
-}
-
-.hero2 img {
-    display: block;
-    width: 100%;
-    height: auto;
-    padding-right: 0.01%;
-    background: #000;
-
-}
-.hero2 h1{
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    text-align: center; 
-    color: #fff;
-    font-family: var(--heading-font);
-    background: none;
-    padding: 3px;
-    opacity: 1;
-    top: 35%;
-}
-.hero2 p{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    font-size: 1.2rem;
-    text-align: center;
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
-    border-radius: 10px;
-}
-.hero2 a{
-    position: absolute;
-    padding: 10px 20px;
-    top: 55%;
-    left: 44%;
-    background-color: var(--primary-color);
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 20px;
-    transition: background-color 0.3s ease, transform 0.2s ease;}
