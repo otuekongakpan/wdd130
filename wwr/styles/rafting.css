@@ -415,7 +415,6 @@ iframe {
 
 .hero2 {
     position: relative;
-    background-image: linear-gradient(to bottom #000);
 }
 
 .hero2 img {
@@ -424,6 +423,7 @@ iframe {
     height: auto;
     padding-right: 0.01%;
     background: #000;
+    ;
 
 }
 .hero2 h1{
@@ -466,4 +466,51 @@ iframe {
 
 .hero2 p{
     text-align: center;
+}
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.purpose {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.offerings-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin: 20px auto;
+    width: 840px;
+}
+.offering {
+    background-color: var(--accent2-color);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.offering img {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin: 20px auto;
+    align-items: center;
 }
